@@ -18,11 +18,12 @@ def GETDISK_SIZE(device_path=""):
         return 1
     SIZE = {}
     DISK_INFO = ""
-    DISK_INFO = os.statvfs("/boot")
-    free = (DISK_INFO.f_bavail * DISK_INFO.f_frsize)
-    total = (DISK_INFO.f_blocks * DISK_INFO.f_frsize)
-    used = (DISK_INFO.f_blocks - DISK_INFO.f_bfree) * DISK_INFO.f_frsize
-    usage = int(round(float(used * 100) / float(used + free)))
+    DISK_INFO = os.statvfs(device_path)
+    DISK_Free = (DISK_INFO.f_bavail * DISK_INFO.f_frsize)
+    DISK_Total = (DISK_INFO.f_blocks * DISK_INFO.f_frsize)
+    DISK_Use = (DISK_INFO.f_blocks - DISK_INFO.f_bfree) * DISK_INFO.f_frsize
+    DISK_Usage = int(round(float(DISK_Use * 100) / float(DISK_Use + DISK_Free)))
+    print DISK_Usage
     return 0
 def GETDISK():
     """
@@ -38,7 +39,6 @@ def GETDISK():
     for x in data:
         data1 = x.split()
         if data1[2].strip() in DIST_TYPE:
-            print data1[0],data1[2]
+            GETDISK_SIZE(data1[1].strip())#,data1[0],data1[2]
     return 0
-#GETDISK()
-GETDISK_SIZE("/dev/sda1")
+GETDISK()
