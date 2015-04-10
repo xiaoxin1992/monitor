@@ -23,7 +23,8 @@ def GETDISK_SIZE(device_path=""):
     DISK_Total = (DISK_INFO.f_blocks * DISK_INFO.f_frsize)
     DISK_Use = (DISK_INFO.f_blocks - DISK_INFO.f_bfree) * DISK_INFO.f_frsize
     DISK_Usage = int(round(float(DISK_Use * 100) / float(DISK_Use + DISK_Free)))
-    print DISK_Usage
+    print float(DISK_Free) / 1024 / 1024 /1024
+    #print DISK_Usage
     return 0
 def GETDISK():
     """
