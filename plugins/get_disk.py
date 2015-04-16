@@ -90,17 +90,23 @@ def CHECK_DISK(device="aaa"):
         if DISK_Usage[0] > 90 and DISK_Usage[0] < 100:  #DISK_IO_Usage > 90 and DISK_IO_Usage < 100:
             DISK_STATUS[x[0]]={
                 'info':'space use 90%',
-                'status':2
+                'status':2,
+                'disk_size':DISK_Usage1,
+                'disk_io':DISK_IO_Usage1
             }
         elif DISK_Usage[0] >= 100: #or DISK_IO_Usage >= 100:
             DISK_STATUS[x[0]]={
                 'info':'space use 100%',
-                'status':3 
+                'status':3,
+                'disk_size':DISK_Usage1,
+                'disk_io':DISK_IO_Usage1
             }
         else:
             DISK_STATUS[x[0]]={
                 'info':'space use OK',
-                'status':0
+                'status':0,
+                'disk_size':DISK_Usage1,
+                'disk_io':DISK_IO_Usage1
             }
     return DISK_STATUS
             #return 2
@@ -110,7 +116,7 @@ def CHECK_DISK(device="aaa"):
         #    return 0
     #a = GETDISK_SIZE('/')
 #print 
-print CHECK_DISK()
+#print CHECK_DISK()
 #sys.exit(CHECK_STATUS)
 #GETDISK('/dev/sda1','ext4')
 #print GETDISK_SIZE('/')
