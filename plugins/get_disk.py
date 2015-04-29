@@ -116,7 +116,7 @@ def CHECK_DISK(device="aaa"):
         #    return 0
     #a = GETDISK_SIZE('/')
 #print 
-print CHECK_DISK()
+#print CHECK_DISK()
 #sys.exit(CHECK_STATUS)
 #GETDISK('/dev/sda1','ext4')
 #print GETDISK_SIZE('/')
