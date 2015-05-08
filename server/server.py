@@ -6,7 +6,11 @@ HOST='0.0.0.0'
 PORT=45100
 class MytcpHandler(SocketServer.BaseRequestHandler):
     def handle(self):
-       print self.request.recv(1024).strip()
+	while 1:   
+	    data = self.request.recv(1024).strip()
+	    if not data:
+		break
+	    print data
        #self.client_address[0]
 
 if __name__ == "__main__":

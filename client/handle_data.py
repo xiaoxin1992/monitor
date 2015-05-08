@@ -10,7 +10,7 @@ with open(cron_data) as f:
     data =f.read()
 with open(cron_status,'r') as s_f:
     status = s_f.read()
-if int(status.strip()) is not 0:
+if int(status.strip()) is not 0 or not data:
     sys.exit(0)
 if client.send_data(data) is 0:
     f = open(cron_data,'w')
