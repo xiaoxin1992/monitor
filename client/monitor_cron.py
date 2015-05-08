@@ -20,6 +20,7 @@ try:
     json_data = json.loads(data)
 except ValueError,e:
     print e
+    sys.exit()
 
 
 def cmd_exec(cmd):
@@ -31,15 +32,9 @@ data_list = []
 f = open(cron_status,'w')
 f.write('1')
 f.close()
-for k,v in json_data.items():
+for k,v in json_data['command'].items():
     command_line = cmd_exec(v)
-    data_list.append({
-	'name':"%s" % k,	
-	'data':"%s" % command_line[0],
-	'code':"%s" % command_line[1]
-    })
-    
-    #data_list.append(cmd_data)
+    data_list.append({'id':json_data['id'],'name':"%s" % k,'data':"%s" % command_line[0],'code':"%s" % command_line[1]})
 f = open(cron_data,'a')
 f.write(json.dumps(data_list))
 f.close()
