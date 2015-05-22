@@ -20,7 +20,7 @@ class MytcpHandler(SocketServer.BaseRequestHandler):
             if handle_data.handle(all_data.strip()):
                 self.request.sendall("Message is invalid")
     
-	    
+        
        #self.client_address[0]
 
 if __name__ == "__main__":

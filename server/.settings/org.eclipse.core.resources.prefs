@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding/__init__.py=utf-8
+encoding/handle_data.py=utf-8
+encoding/log.py=utf-8
+encoding/mail_class.py=utf8
+encoding/my_db.py=utf-8
+encoding/server.py=utf-8
