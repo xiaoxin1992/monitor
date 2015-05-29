@@ -13,7 +13,7 @@ server_global={
     #    db_name  数据库名
     'listen_ip':'0.0.0.0',
     'listen_port':45100,
-    'log_path':'./log/start.log',
+    'log_path':'/log/start.log',
     'databases':{'db_host':'127.0.0.1','db_port':'3306','db_user':'root'
                  ,'db_pass':'','db_name':'monitor'}
     

@@ -1,4 +1,4 @@
-#! /usr/bin/evn python
+#! /usr/bin/env python
 import time,datetime
 from Modules.sendmail import *
 from Modules.log import *

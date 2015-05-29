@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding=utf-8
-import logging
+import logging,sys
 from conf.config import server_global
-log_path = server_global['log_path']
+man_path = sys.path[0]
+log_path = man_path + server_global['log_path']
 def log(message=''):
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
@@ -13,4 +14,3 @@ def log(message=''):
     logger.info(message)
 if __name__ == "__main__":
     log()
-
