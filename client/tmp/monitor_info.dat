@@ -1,1 +1,0 @@
-[{"host_info": "mysql server", "cmd_name": "mysql status", "code": "0", "data": "mysqld is alive\n", "id": 1}, {"host_info": "mysql server", "cmd_name": "cmd_name", "code": "2", "data": "8:53:27\n", "id": 1}]
