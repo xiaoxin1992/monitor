@@ -1,10 +1,8 @@
 #! /usr/bin/env python
 # coding:utf-8
 
-
-
 import MySQLdb,log
-
+from conf.config import server_global
 
 
 """
@@ -16,11 +14,11 @@ a.insert_update_delete("insert into monitor_host_info values(1,'127.0.0.1','1');
 a.close()
 """
 
-DB_HOST = '127.0.0.1'
-DB_PORT = 3306
-DB_USER = "root"
-DB_PASS = ""
-DB_DATABASE="monitor"
+DB_HOST = server_global['databases']['db_host']
+DB_PORT = int(server_global['databases']['db_port'])
+DB_USER = server_global['databases']['db_user']
+DB_PASS = server_global['databases']['db_pass']
+DB_DATABASE= server_global['databases']['db_name']
 
 class mysql(object):
     def __init__(self):
@@ -30,7 +28,7 @@ class mysql(object):
             self.mysql = MySQLdb.connect(DB_HOST,DB_USER,DB_PASS,DB_DATABASE,DB_PORT)
             self.cursor = self.mysql.cursor()
         except Exception,e:
-            print log.log(e)
+            log.log(e)
     def select(self,sql):
         try:
             self.cursor.execute(sql)
@@ -50,5 +48,4 @@ class mysql(object):
             self.mysql.close()
         except Exception,e:
             log.log(e)
-        
-    
+ 

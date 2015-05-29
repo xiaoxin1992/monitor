@@ -1,0 +1,121 @@
+2015-05-29 21:34:37,895 - log.py - INFO - Server runing...
+2015-05-29 21:37:00,957 - log.py - INFO - Server runing...
+2015-05-29 21:37:30,249 - log.py - INFO - Server runing...
+2015-05-29 21:38:51,309 - log.py - INFO - Server runing...
+2015-05-29 21:38:59,314 - log.py - INFO - an integer is required
+2015-05-29 21:38:59,314 - log.py - INFO - an integer is required
+2015-05-29 21:38:59,315 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:38:59,315 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:38:59,315 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:39:52,301 - log.py - INFO - Server runing...
+2015-05-29 21:39:56,460 - log.py - INFO - Server runing...
+2015-05-29 21:40:08,911 - log.py - INFO - Server runing...
+2015-05-29 21:40:11,165 - log.py - INFO - Server runing...
+2015-05-29 21:40:15,076 - log.py - INFO - an integer is required
+2015-05-29 21:40:15,076 - log.py - INFO - an integer is required
+2015-05-29 21:40:15,076 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:40:15,076 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:40:15,076 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:40:34,827 - log.py - INFO - Server runing...
+2015-05-29 21:40:37,580 - log.py - INFO - an integer is required
+2015-05-29 21:40:37,580 - log.py - INFO - an integer is required
+2015-05-29 21:40:37,580 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:40:37,580 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:40:37,580 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:41:37,253 - log.py - INFO - Server runing...
+2015-05-29 21:41:40,643 - log.py - INFO - an integer is required
+2015-05-29 21:41:40,643 - log.py - INFO - an integer is required
+2015-05-29 21:41:40,644 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:41:40,644 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:41:40,644 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:41:40,644 - log.py - INFO - an integer is required
+2015-05-29 21:41:40,644 - log.py - INFO - an integer is required
+2015-05-29 21:41:40,644 - log.py - INFO - an integer is required
+2015-05-29 21:41:40,644 - log.py - INFO - an integer is required
+2015-05-29 21:41:40,644 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:41:40,644 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:41:40,644 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:41:40,644 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:41:40,644 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:32,893 - log.py - INFO - Server runing...
+2015-05-29 21:42:37,276 - log.py - INFO - an integer is required
+2015-05-29 21:42:37,276 - log.py - INFO - an integer is required
+2015-05-29 21:42:37,276 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:37,276 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:37,276 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:37,277 - log.py - INFO - an integer is required
+2015-05-29 21:42:37,277 - log.py - INFO - an integer is required
+2015-05-29 21:42:37,277 - log.py - INFO - an integer is required
+2015-05-29 21:42:37,277 - log.py - INFO - an integer is required
+2015-05-29 21:42:37,277 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:37,277 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:37,277 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:37,277 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:37,277 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,171 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,171 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,171 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,171 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,171 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,171 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,172 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,172 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,172 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,172 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,172 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,172 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,172 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,172 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,172 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,172 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,172 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,172 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,172 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,172 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,172 - log.py - INFO - an integer is required
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:42:59,173 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:00,612 - log.py - INFO - Server runing...
+2015-05-29 21:43:03,752 - log.py - INFO - an integer is required
+2015-05-29 21:43:03,752 - log.py - INFO - an integer is required
+2015-05-29 21:43:03,754 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,754 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,754 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,755 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,755 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,755 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,755 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,755 - log.py - INFO - an integer is required
+2015-05-29 21:43:03,755 - log.py - INFO - an integer is required
+2015-05-29 21:43:03,755 - log.py - INFO - an integer is required
+2015-05-29 21:43:03,755 - log.py - INFO - an integer is required
+2015-05-29 21:43:03,755 - log.py - INFO - an integer is required
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:43:03,756 - log.py - INFO - 'mysql' object has no attribute 'cursor'
+2015-05-29 21:44:04,389 - log.py - INFO - Server runing...
+2015-05-29 21:54:49,644 - log.py - INFO - Server runing...
+2015-05-29 21:55:35,179 - log.py - INFO - Server runing...
+2015-05-29 21:55:46,339 - log.py - INFO - Server runing...
+2015-05-29 21:55:56,306 - log.py - INFO - Server runing...
+2015-05-29 21:55:57,003 - log.py - INFO - Server runing...
+2015-05-29 21:56:04,459 - log.py - INFO - Server runing...
+2015-05-29 21:56:05,227 - log.py - INFO - Server runing...
+2015-05-29 21:56:15,427 - log.py - INFO - Server runing...

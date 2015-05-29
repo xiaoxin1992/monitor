@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 # coding=utf-8
-import SocketServer,sys,logging,log,handle_data
+import SocketServer,sys
+from Modules.log import *
+from Modules.handle_data import *
+from conf.config import server_global
 
-HOST='0.0.0.0'
-PORT=45100
+HOST= server_global['listen_ip']
+PORT=server_global['listen_port']
 class MytcpHandler(SocketServer.BaseRequestHandler):
     def handle(self):
         address = self.client_address[0].strip()
@@ -17,14 +20,14 @@ class MytcpHandler(SocketServer.BaseRequestHandler):
                 break
             all_data = all_data + data
         if len(all_data) != 0:
-            if handle_data.handle(all_data.strip()):
+            if handle(all_data.strip(),self.client_address[0]):
                 self.request.sendall("Message is invalid")
     
         
        #self.client_address[0]
 
 if __name__ == "__main__":
-    log.log('Server runing...')
+    log('Server runing...')
     try:
         server = SocketServer.ThreadingTCPServer((HOST,PORT),MytcpHandler)
         server.serve_forever()
