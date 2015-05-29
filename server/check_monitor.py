@@ -38,15 +38,14 @@ class check(object):
         select_host.connect()
         server_ret = []
         for x in self.mysql.select(select_sql):
-            if x[0] in host_id or x[4] == 0:
-                break
-            server_ret.append({'host_id':x[0],
-                    'host_ip':'%s' % (select_host.select(select_host_sql % x[0])[0]),
-                    'server_id':x[1],
-                    'server_name':'%s' % x[2],
-                    'time':'%s' % x[3],
-                    'code':x[4],
-                    })
+            if x[0] not in host_id and x[4] != 0:
+                server_ret.append({'host_id':x[0],
+                        'host_ip':'%s' % (select_host.select(select_host_sql % x[0])[0]),
+                        'server_id':x[1],
+                        'server_name':'%s' % x[2],
+                        'time':'%s' % x[3],
+                        'code':x[4],
+                        })
         select_host.close()
         return server_ret
     def close(self):
@@ -85,18 +84,16 @@ class send_mail(object):
         """
         server = check()
         for x in server.check_server():
-            sendmail(mail_subject=subject%(x['host_ip'],x['server_name']),data=message %(x['host_ip'],x['server_name']
-                                                                                             ,now_time))
+            sendmail(mail_subject=subject%(x['host_ip'],x['server_name']),data=message %(x['host_ip'],x['server_name'],now_time))
         server.close()
 try:
     while True:
-        a = send_mail()
-        a.send_host_mail()
-        a.send_server_mail()
         try:
             time.sleep(send_mail_time)
         except IOError,e:
             log(e)
+        a = send_mail()  
+        a.send_host_mail()
+        a.send_server_mail()
 except:
     pass
-    
