@@ -7,10 +7,9 @@
 import subprocess
 import json,sys,os
 from conf.config import client_config
-main_path = os.getcwd()
+main_path = sys.path[0]
 cron_status = main_path + "/tmp/monitor_cron.status"
 cron_data = main_path + "/tmp/monitor_info.dat"
-sys.exit(0)
 def cmd_exec(cmd):
     data = subprocess.Popen(cmd.strip(),shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
     (stdoutdata,stderrdata)=data.communicate()

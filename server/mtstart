@@ -1,0 +1,32 @@
+#!/bin/bash
+main_path=$(dirname ${BASH_SOURCE[0]})
+#check_monitor.py  conf  __init__.py  log  Modules  server.py
+
+
+
+
+
+case $1 in 
+    start)
+        echo "start server..."
+        test -d $main_path/pid ||  mdir -p $main_path/pid
+        python $main_path/server.py &
+        echo $! > $main_path/pid/server.pid
+        sleep 2
+        python $main_path/check_monitor.py &
+        echo $! > $main_path/pid/check_monitor.pid
+        ;;
+    stop)
+        echo "stop server..."
+        if test -s $main_path/pid/server.pid;then
+            kill -9 $(cat $main_path/pid/server.pid)
+            rm -f $main_path/pid/server.pid
+        fi
+        if test -s $main_path/pid/check_monitor.pid;then
+            kill -9 $(cat $main_path/pid/check_monitor.pid)
+            rm -f $main_path/pid/check_monitor.pid
+        fi
+        ;;
+    *)
+            echo "$0 [start/stop]";;
+esac

@@ -1,0 +1,34 @@
+#! /bin/bash
+#
+# 用于启动monitor 客户端
+#
+#
+main_path=$(dirname ${BASH_SOURCE[0]})
+tmp_path=$main_path/tmp
+if ! test -f "$tmp_path/monitor_cron.status";then
+    touch $tmp_path/monitor_cron.status
+    if [ $? -ne 0 ];then
+        echo "create dir $tmp_path/monitor_cron.status fail"
+        exit 1
+    fi
+fi
+if ! test -f "$tmp_path/monitor_info.dat";then
+    touch  $tmp_path/monitor_info.dat
+    if [ $? -ne 0 ];then
+        echo "create dir $tmp_path/monitor_info.dat fail"
+        exit 1
+    fi
+fi
+
+
+if test -s "$tmp_path/monitor_cron.status";then
+    echo "0" > $tmp_path/monitor_cron.status
+fi
+if  test -s "$tmp_path/monitor_info.dat";then
+    :> $tmp_path/monitor_info.dat
+fi
+
+
+python ${main_path}/monitor_cron.py
+sleep 2
+python ${main_path}/handle_data.py

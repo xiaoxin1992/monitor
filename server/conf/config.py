@@ -33,3 +33,8 @@ contacts = {
         'smtp_show_name':'监控邮箱',
         'to_mail':'xxx@qq.com,xxxxx@163.com'
 }
+timeout_set = {
+               'check_host_time':300, #主机超市时间
+               'check_server_time':300, #服务超时时间
+               'send_mail_time':300 #发送告警邮件间隔
+               }

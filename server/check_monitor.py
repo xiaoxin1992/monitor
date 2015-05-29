@@ -3,10 +3,10 @@ import time,datetime
 from Modules.sendmail import *
 from Modules.log import *
 from Modules.my_db import *
-
-check_host_time = 300
-check_server_time = 300
-send_mail_time = 300
+from conf.config import timeout_set
+check_host_time = timeout_set['check_host_time']
+check_server_time = timeout_set['check_server_time']
+send_mail_time =  timeout_set['send_mail_time']
 class check(object):
     def __init__(self):
         self.mysql = mysql()
