@@ -28,10 +28,10 @@ contacts = {
         #to_mail  发送到那个邮箱可以写多个，中间以','隔开
         'smtp_server':'smtp.qq.com',
         'smtp_port':25,
-        'smtp_user':'xxxx@qq.com',
-        'smtp_pass':'xxxxxxx',
+        'smtp_user':'xxxx@vip.qq.com',
+        'smtp_pass':'xxxxxx',
         'smtp_show_name':'监控邮箱',
-        'to_mail':'xxx@qq.com,xxxxx@163.com'
+        'to_mail':'xxx@vip.qq.com,xxx@163.com'
 }
 timeout_set = {
                'check_host_time':300, #主机超市时间
