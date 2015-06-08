@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding=utf-8
-import logging,sys
+import logging,sys,os
 from conf.config import server_global
-man_path = sys.path[0]
+man_path = os.path.dirname(sys.path[0])
+#man_path = sys.path[0]
 log_path = man_path + server_global['log_path']
 def log(message=''):
     logger = logging.getLogger()

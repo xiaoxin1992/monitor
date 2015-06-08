@@ -7,9 +7,10 @@ sock_config = {
 client_config = {
     'id':1,
     'host_info':"mysql server", #服务器描述
+    'send_time':30,           # 单位秒
     'command':{
         'cmd_name':'/root/cc.py', #cmd_name监控名称,监控脚本
-        'mysql status':'/root/mysql_alive.sh', 
-        'ntp':'/root/ntp.sh'}
+        'mysql status':'/root/mysql_alive.sh' 
+        }
 
 }

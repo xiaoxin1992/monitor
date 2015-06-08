@@ -29,9 +29,9 @@ contacts = {
         'smtp_server':'smtp.qq.com',
         'smtp_port':25,
         'smtp_user':'xxxx@vip.qq.com',
-        'smtp_pass':'xxxxxx',
+        'smtp_pass':'xxxx',
         'smtp_show_name':'监控邮箱',
-        'to_mail':'xxx@vip.qq.com,xxx@163.com'
+        'to_mail':'xxxxx@vip.qq.com,xxx@163.com'
 }
 timeout_set = {
                'check_host_time':300, #主机超市时间

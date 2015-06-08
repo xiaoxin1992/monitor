@@ -1,7 +1,6 @@
 #! coding:utf-8
 import json,sys,time,my_db
 import json
-
 def data_flush_database(data):
     """
     变量定义
@@ -22,7 +21,8 @@ def data_flush_database(data):
     insert_host_sql = """insert into monitor_host_info(id,ip,host_info,alive,time)  values(%s,'%s','%s',%s,'%s')""" % (data['id'],data['host'],data['host_info'],1,data['time'])
     update_host_sql = """update monitor_host_info set alive=1,time='%s' where id=%s and ip='%s'""" % (data['time'],data['id'],data['host'])
     mysql = my_db.mysql()
-    mysql.connect()
+    if mysql.connect() is 1:
+        return 1
     select_host_data = mysql.select(select_host_sql)
     if len(select_host_data) == 0:
         mysql.insert_update_delete(insert_host_sql)  

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//Modules/client.py=utf-8
+encoding//Modules/handle_data.py=utf-8
+encoding//Modules/log.py=utf-8
+encoding//Modules/monitor_cron.py=utf8
+encoding//conf/config.py=utf-8

@@ -29,6 +29,7 @@ class mysql(object):
             self.cursor = self.mysql.cursor()
         except Exception,e:
             log.log(e)
+            return 1
     def select(self,sql):
         try:
             self.cursor.execute(sql)
