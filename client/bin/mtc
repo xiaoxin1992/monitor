@@ -1,0 +1,74 @@
+#! /bin/bash
+
+# chkconfig: 2345 55 25
+
+#
+#start monitor client
+#
+
+. /etc/rc.d/init.d/functions
+
+server_root=/data/monitor/client/
+monitor_client=${server_root}/bin/monitor_client
+
+
+
+if ! test -x $monitor_client;then
+    echo "$monitor_client No executive authority"
+    exit 1
+fi
+
+
+function status()
+{
+    pid=0
+    echo -n "monitor clinet runing"
+    if ! test -f $server_root/pid/sendata.pid;then
+        failure
+        echo 
+        return
+    fi
+    pid=$(ps -P $(cat $server_root/pid/sendata.pid)|grep -v PID|awk '{print $1}')
+    if [ ! $pid ];then
+        pid=0
+    fi
+    if  [ $pid -ne 0 ];then
+	success
+   else
+	failure
+   fi
+   echo 
+}
+case $1 in 
+    start)
+        pid=0
+    if test -f $server_root/pid/sendata.pid;then
+        pid=$(ps -P $(cat $server_root/pid/sendata.pid)|grep -v PID|awk '{print $1}')
+        if [ ! $pid ];then
+            pid=0
+        fi
+        if  [ $pid -eq 0 ];then
+            rm -f $server_root/pid/sendata.pid
+        fi
+    fi
+	echo  -n "Starting monitor clinet"
+	$monitor_client start 2>/dev/null &&  success || failure
+	echo 
+	;;
+    stop)
+	if ! test -f $server_root/pid/sendata.pid;then
+	    echo -n "monitor clinet no runing"
+	    failure
+	    echo
+	    exit 0
+	fi
+	echo  -n "Stopping monitor clinet"
+	$monitor_client stop 2>/dev/null &&  success || failure
+	echo
+	;;
+    status)
+	status;;
+	*)
+	    echo "Usage:$0 {start|stop|status}"
+	    ;;
+esac
