@@ -1,9 +1,8 @@
 #! /bin/bash
 
 # chkconfig: 2345 55 25
-
+# description: This software is monitoring client
 #
-#start monitor client
 #
 
 . /etc/rc.d/init.d/functions

@@ -10,4 +10,8 @@
 启动服务
 
 bin 目录下
-./monitor_clinet  start／stop/ restart
+bee-client start
+
+
+存放路径必须是/data/monitor
+目前还没有写到配置文

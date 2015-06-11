@@ -9,7 +9,11 @@
 初始化
 执行 install/init.sql  进行数据库初始化
 然后执行
-monitorstart start  启动服务
+bee-server start  启动服务
+
+程序存放路径必须是
+/data/monitor
+目前，还没有写到配置文件
 
 
 

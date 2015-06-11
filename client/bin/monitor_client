@@ -5,6 +5,7 @@ from signal import SIGTERM
 server_root = os.path.dirname(sys.path[0].strip())
 sys.path.append(server_root)
 from Modules.monitor_cron import check_data
+from Modules.log import log
 """
 用于创建守护进程
 """
@@ -21,6 +22,7 @@ class daemon(object):
             if pid > 0:
                 sys.exit(0)
         except OSError,e:
+	    log('fork fist faild:%d (%s)\n') % (e.errno,e.strerror)
             sys.stderr.write('fork fist faild:%d (%s)\n') % (e.errno,e.strerror)
             sys.exit(1)
         os.chdir('/')
@@ -31,6 +33,7 @@ class daemon(object):
             if pid > 0:
                 sys.exit(0)
         except OSError,e: 
+	    log("fork second faild:%d (%s)\n" % (e.errno,e.strerror))
             sys.stderr.write("fork second faild:%d (%s)\n" % (e.errno,e.strerror))
             sys.exit(1)
         sys.stdout.flush()
@@ -55,6 +58,7 @@ class daemon(object):
             pid=None
         if pid:
             message="pidfile %s already exist,monitor already running\n"
+	    log(message % self.pidfile)
             sys.stderr.write(message % self.pidfile)
             sys.exit(1)
         self.daemonize()
@@ -68,6 +72,7 @@ class daemon(object):
             pid=None
         if not pid:
             message="pidfile %s does not exit,monitor not running\n"
+	    log(message % self.pidfile)
             sys.stderr.write(message % self.pidfile)
             return
         try:
@@ -81,7 +86,7 @@ class daemon(object):
                 if os.path.exists(self.pidfile):
                     os.remove(self.pidfile)
                 else:
-                    print "aa"
+		    log(str(err))
                     print str(err)
                     sys.exit(1)
     def restart(self):
