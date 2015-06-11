@@ -1,0 +1,134 @@
+#!/bin/bash
+
+# chkconfig: 2345 50 20
+# description: This software is monitoring server
+
+. /etc/rc.d/init.d/functions
+server_root=/data/monitor/server
+main_path=$server_root/bin
+if ! test -d $server_root/pid;then
+    mkdir -p $server_root/pid
+fi
+function check_exec()
+{
+    if ! test -x $main_path/$1;then
+	echo "$main_path/$1 No execute permissions"
+	return 2
+    fi
+}
+function checkpid()
+{
+    pid=0
+    if test -f $server_root/pid/$1;then
+	pid=$(ps -P $(cat $server_root/pid/$1)|grep -v PID|awk '{print $1}')
+	if [ ! $pid ];then
+	    pid=0
+	fi
+	if  [ $pid -eq 0 ];then
+	    rm -f  $server_root/pid/$1
+	fi
+    fi
+}
+function start()
+{
+    echo  -n "Starting Bee Server:"
+    check_exec monitor
+    if [ $? -eq 2 ];then
+	exit 1
+    fi
+    checkpid monitor_server.pid
+    $main_path/monitor start 2>/dev/null &&  success || failure
+    echo 
+    sleep 0.5
+    echo  -n "Starting Bee Check:"
+    check_exec checkdata
+    if [ $? -eq 2 ];then
+	 exit 1
+    fi
+    checkpid monitor_check_data.pid
+    $main_path/checkdata start 2>/dev/null &&  success || failure
+    echo
+    
+	 
+     
+}
+function stop()
+{
+    check_exec monitor
+    if [ $? -eq 2 ];then
+        exit 1
+    fi
+    if test -f $server_root/pid/monitor_server.pid;then
+        pid=$(ps -P $(cat $server_root/pid/monitor_server.pid)|grep -v PID|awk '{print $1}')
+        if [ ! $pid ];then
+            pid=0
+        fi
+        if  [ $pid -eq 0 ];then
+            echo -n "Bee server no runing"
+	    failure
+	    echo
+	else
+	    echo -n "Bee server stoping:"
+	    $main_path/monitor stop 2>/dev/null &&  success || failure
+	    echo 
+        fi
+    else
+	echo -n "Bee server no runing"
+	failure
+	echo
+    fi
+    check_exec checkdata
+    if test -f $server_root/pid/monitor_check_data.pid;then
+        pid=$(ps -P $(cat $server_root/pid/monitor_check_data.pid)|grep -v PID|awk '{print $1}')
+        if [ ! $pid ];then
+            pid=0
+        fi
+        if  [ $pid -eq 0 ];then
+            echo -n "Bee Check server no runing"
+            failure
+            echo
+	else
+	    echo -n "Bee Check server stoping"
+	    $main_path/checkdata stop 2>/dev/null &&  success || failure
+	    echo
+        fi
+    else
+	echo -n "Bee Check server no runing"
+	failure
+	echo
+    fi
+}
+function status()
+{
+    echo -n "$2"
+    pid=0
+    if test -f $server_root/pid/$1;then
+        pid=$(ps -P $(cat $server_root/pid/$1)|grep -v PID|awk '{print $1}')
+        if [ ! $pid ];then
+            pid=0
+        fi
+        [ $pid -eq 0 ] &&  failure || success
+    else
+	failure
+    fi
+    echo
+}
+
+case $1 in 
+    start)
+	    start
+        ;;
+    stop)
+	stop
+        ;;
+    status)
+	status monitor_server.pid "Bee server run status"
+	status monitor_check_data.pid "Bee Check server run status"
+	;;
+    restart)
+	stop
+	start
+	;;
+    *)
+            echo "$0 {start|stop|status}";;
+esac
