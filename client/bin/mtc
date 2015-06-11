@@ -10,7 +10,7 @@
 
 server_root=/data/monitor/client/
 monitor_client=${server_root}/bin/monitor_client
-
+pid=$server_root/pid
 
 
 if ! test -x $monitor_client;then
@@ -18,6 +18,11 @@ if ! test -x $monitor_client;then
     exit 1
 fi
 
+if ! test -d $pid;then
+    #echo "$pid Directory not"
+    #exit 1
+    mkdir -p $pid
+fi
 
 function status()
 {
