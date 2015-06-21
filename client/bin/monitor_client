@@ -6,6 +6,7 @@ server_root = os.path.dirname(sys.path[0].strip())
 sys.path.append(server_root)
 from Modules.monitor_cron import check_data
 from Modules.log import log
+from conf.checkconf import getconfig
 """
 用于创建守护进程
 """
@@ -61,7 +62,7 @@ class daemon(object):
 	    log(message % self.pidfile)
             sys.stderr.write(message % self.pidfile)
             sys.exit(1)
-        self.daemonize()
+        #self.daemonize()
         self.run()
     def stop(self):
         try:
@@ -96,11 +97,21 @@ class daemon(object):
         check_data()
 if __name__ =='__main__':
     daemon = daemon(server_root + '/pid/sendata.pid')
+    #sys.exit()
     if len(sys.argv) == 2:
         if 'start' == sys.argv[1]:
+            #if not getconfig():
+            #    sys.exit(1)
             daemon.start()
         elif 'stop' == sys.argv[1]:
             daemon.stop()
+        elif 'checkconfig' == sys.argv[1] or 'check' == sys.argv[1]:
+            if getconfig():
+                if 'checkconfig' == sys.argv[1]:
+                    print '\033[1;32;40m',"Configuration  Success!","\033[0m"
+                sys.exit(0)
+            else:
+                sys.exit(255)
         elif 'restart' == sys.argv[1]:
             daemon.restart()
         else:
