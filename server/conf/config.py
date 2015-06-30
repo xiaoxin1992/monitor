@@ -1,5 +1,45 @@
 #!/usr/bin/env python
 # coding=utf-8
+
+
+
+Listen ="0.0.0.0:45100"
+Server_Root = "/data/monitor/server"
+Log_File = "%s%s" % (Server_Root,"/log/server.log")
+
+databases = {
+             'database_host':'127.0.0.1',
+             'database_port':3306,
+             'database_user':'root',
+             'database_password':'',
+             'database':'monitor'           
+}
+
+contacts = {
+        #联系人配置
+        #smtp_server  stmp服务器
+        #smtp_port  端口
+        #smtp_user 登陆用户名
+        #smtp_pass 登陆密码
+        #smtp_show_name 发信件显示名称
+        #to_mail  发送到那个邮箱可以写多个，中间以','隔开
+        'smtp_server':'smtp.qq.com',
+        'smtp_port':25,
+        'smtp_user':'xxxx@vip.qq.com',
+        'smtp_pass':'xxxx',
+        'smtp_show_name':'监控邮箱',
+        'to_mail':'xxxxx@vip.qq.com,xxx@163.com'
+}
+
+
+timeout_set = {
+               'check_host_time':300, #主机超市时间
+               'check_server_time':300, #服务超时时间
+               'send_mail_time':300 #发送告警邮件间隔
+               }
+
+
+
 server_global={
     #全局配置，主要服务端配置
     #listen_ip   监听IP
@@ -18,23 +58,4 @@ server_global={
                  ,'db_pass':'','db_name':'monitor'}
     
 }
-contacts = {
-        #联系人配置
-        #smtp_server  stmp服务器
-        #smtp_port  端口
-        #smtp_user 登陆用户名
-        #smtp_pass 登陆密码
-        #smtp_show_name 发信件显示名称
-        #to_mail  发送到那个邮箱可以写多个，中间以','隔开
-        'smtp_server':'smtp.qq.com',
-        'smtp_port':25,
-        'smtp_user':'xxxx@vip.qq.com',
-        'smtp_pass':'xxxx',
-        'smtp_show_name':'监控邮箱',
-        'to_mail':'xxxxx@vip.qq.com,xxx@163.com'
-}
-timeout_set = {
-               'check_host_time':300, #主机超市时间
-               'check_server_time':300, #服务超时时间
-               'send_mail_time':300 #发送告警邮件间隔
-               }
+

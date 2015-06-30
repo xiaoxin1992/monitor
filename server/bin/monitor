@@ -1,10 +1,11 @@
 #! /usr/bin/env python
 #! _*_ coding:utf-8
 import sys,os,time,atexit
-from signal import SIGTERM
+#from signal import SIGTERM
 server_root = os.path.dirname(sys.path[0].strip())
 sys.path.append(server_root)
 from Modules.server import start
+from Modules.checkconf import checkconfig
 """
 用于创建守护进程
 """
@@ -93,11 +94,18 @@ if __name__ =='__main__':
     daemon = daemon(server_root + '/pid/monitor_server.pid')
     if len(sys.argv) == 2:
         if 'start' == sys.argv[1]:
-            daemon.start()
+            if checkconfig():
+                daemon.start()
         elif 'stop' == sys.argv[1]:
             daemon.stop()
         elif 'restart' == sys.argv[1]:
             daemon.restart()
+        elif 'checkconfig' == sys.argv[1]:
+            if checkconfig():
+                print '\033[1;32;40m',"Configuration  Success!","\033[0m"
+            sys.exit(0)
+        elif 'check_line' == sys.argv[1]:
+            sys.exit(checkconfig())
         else:
             sys.exit(2)
         sys.exit(0)

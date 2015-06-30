@@ -9,6 +9,17 @@ main_path=$server_root/bin
 if ! test -d $server_root/pid;then
     mkdir -p $server_root/pid
 fi
+function checkconfig()
+{
+	$main_path/monitor check_line 2>/dev/null
+	if [ $? -ne 1 ];then
+		return 225
+	else
+		if [ "x$1" != "xstart" ];then
+			echo -e '\033[32;40m'"Configuration  Success!""\033[0m"
+		fi
+	fi
+}
 function check_exec()
 {
     if ! test -x $main_path/$1;then
@@ -31,6 +42,7 @@ function checkpid()
 }
 function start()
 {
+	
     echo  -n "Starting Bee Server:"
     check_exec monitor
     if [ $? -eq 2 ];then
@@ -116,6 +128,9 @@ function status()
 
 case $1 in 
     start)
+       if ! checkconfig  start 2>/dev/null;then
+      	 exit 1
+    	fi
 	    start
         ;;
     stop)
@@ -129,6 +144,8 @@ case $1 in
 	stop
 	start
 	;;
+	checkconfig)
+		checkconfig;;
     *)
-            echo "$0 {start|stop|status}";;
+            echo "$0 {start|stop|status|checkconfig}";;
 esac

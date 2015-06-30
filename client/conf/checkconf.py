@@ -11,9 +11,9 @@ except Exception,e:
 
 def printf(p_data,p_type=1):
     if p_type is 0:
-        err_type = '\033[1;31;40m'
+        err_type = '\033[31;40m'
     else:
-        err_type = '\033[1;32;40m'
+        err_type = '\033[32;40m'
     info_type = err_type
     print info_type,
     print p_data,
@@ -41,10 +41,10 @@ def getconfig():
             printf("Configuration error: %s" % CONNECT,0)
             error_num += 1
     except  NameError,e:
-        printf("Configuration error: %s" % e,0)
+        printf("Configuration error: %s options %s" % (e,'CONNECT'),0)
         error_num += 1
     except TypeError,e:
-        printf("Configuration error: %s" % e,0)
+        printf("Configuration error: %s options %s " % (e,'CONNECT'),0)
         error_num += 1
     try:
         if type(client_root) is not str:

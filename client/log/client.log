@@ -1,0 +1,266 @@
+2015-06-21 19:29:18 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-21 19:30:42 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-21 19:30:52 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-21 19:31:08 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-21 19:31:18 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-21 19:31:28 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-21 19:31:38 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 05:35:12 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:35:12 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:35:12 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 05:35:22 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:35:22 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:35:22 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 05:51:45 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:51:45 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:51:55 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:51:55 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:52:05 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:52:05 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:52:15 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:52:15 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:52:15 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 05:58:12 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:58:12 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:58:12 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 05:58:32 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:58:32 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:58:32 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 05:59:25 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:59:25 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:59:25 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 05:59:43 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 05:59:43 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 05:59:43 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:00:11 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:00:11 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:00:11 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:02:13 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:02:13 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:02:13 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:02:20 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:02:20 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:02:20 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:02:40 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:02:40 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:02:40 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:03:03 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:03:03 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:03:03 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:03:23 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:03:23 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:03:23 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:03:24 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:03:24 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:03:24 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:03:49 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:03:49 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:03:49 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:27 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:27 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:27 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:45 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:45 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:45 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:47 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:47 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:47 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:47 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:47 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:47 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:48 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:48 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:48 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:49 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:49 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:49 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:49 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:49 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:49 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:50 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:50 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:50 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:51 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:51 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:51 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:51 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:51 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:51 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:52 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:52 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:52 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:53 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:53 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:53 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:54 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:54 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:54 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:54 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:54 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:54 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:55 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:55 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:55 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:55 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:55 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:55 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:04:56 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:04:56 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:04:56 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:05:39 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:05:39 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:05:39 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:05:40 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:05:40 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:05:40 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:05:43 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:05:43 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:05:43 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:05:45 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:05:45 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:05:45 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:05:46 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:05:46 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:05:46 - log.py  - INFO - global name 'data' is not defined
+2015-06-22 06:06:12 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:06:12 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:06:12 - log.py  - INFO - global name 'data__list' is not defined
+2015-06-22 06:06:13 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:06:13 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:06:13 - log.py  - INFO - global name 'data__list' is not defined
+2015-06-22 06:06:19 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:06:19 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:06:19 - log.py  - INFO - data[]
+2015-06-22 06:06:29 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:06:29 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:06:29 - log.py  - INFO - data[]
+2015-06-22 06:06:39 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:06:39 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:06:39 - log.py  - INFO - data[]
+2015-06-22 06:06:49 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:06:49 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:06:49 - log.py  - INFO - data[]
+2015-06-22 06:06:58 - log.py  - INFO - pidfile /data/monitor/client/pid/sendata.pid already exist,monitor already running
+
+2015-06-22 06:06:59 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:06:59 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:06:59 - log.py  - INFO - data[]
+2015-06-22 06:07:09 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:07:09 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:07:09 - log.py  - INFO - data[]
+2015-06-22 06:07:14 - log.py  - INFO - pidfile /data/monitor/client/pid/sendata.pid already exist,monitor already running
+
+2015-06-22 06:07:19 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:07:19 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:07:19 - log.py  - INFO - data[]
+2015-06-22 06:07:48 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:07:48 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:07:58 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:07:58 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:08:08 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:08:08 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:08:18 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:08:18 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:08:28 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:08:28 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:08:38 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:08:38 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:08:42 - log.py  - INFO - pidfile /data/monitor/client/pid/sendata.pid already exist,monitor already running
+
+2015-06-22 06:08:47 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:08:47 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:08:57 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:08:57 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:09:07 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:09:07 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:09:17 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:09:17 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:09:27 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:09:27 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:09:37 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:09:37 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:09:45 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:09:45 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:09:55 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:09:55 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:10:05 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:10:05 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:10:15 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:10:15 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:10:25 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:10:25 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:10:34 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:10:34 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:12:20 - log.py  - INFO - Not collect data
+2015-06-22 06:12:21 - log.py  - INFO - Not collect data
+2015-06-22 06:12:22 - log.py  - INFO - Not collect data
+2015-06-22 06:13:00 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:13:00 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:13:00 - log.py  - INFO - Not collect data
+2015-06-22 06:13:10 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:13:10 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:13:10 - log.py  - INFO - Not collect data
+2015-06-22 06:13:20 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:13:20 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:13:20 - log.py  - INFO - Not collect data
+2015-06-22 06:13:30 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:13:30 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:13:30 - log.py  - INFO - Not collect data
+2015-06-22 06:13:40 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:13:40 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:13:40 - log.py  - INFO - Not collect data
+2015-06-22 06:13:50 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-22 06:13:50 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-22 06:13:50 - log.py  - INFO - Not collect data
+2015-06-22 06:14:00 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 06:14:10 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 06:14:20 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 06:14:30 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 06:14:40 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 06:14:50 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 06:15:00 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 06:15:11 - log.py  - INFO - [Errno 111] Connection refused
+2015-06-22 06:18:58 - log.py  - INFO - pidfile /data/monitor/client/pid/sendata.pid already exist,monitor already running
+
+2015-06-30 09:29:30 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:29:30 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:29:30 - log.py  - INFO - Not collect data
+2015-06-30 09:30:36 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:30:36 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:30:36 - log.py  - INFO - Not collect data
+2015-06-30 09:33:57 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:33:57 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:33:57 - log.py  - INFO - Not collect data
+2015-06-30 09:36:08 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:36:08 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:36:08 - log.py  - INFO - Not collect data
+2015-06-30 09:36:18 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:36:18 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:36:18 - log.py  - INFO - Not collect data
+2015-06-30 09:36:28 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:36:28 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:36:28 - log.py  - INFO - Not collect data
+2015-06-30 09:41:07 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:41:07 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:41:07 - log.py  - INFO - Not collect data
+2015-06-30 09:41:17 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:41:17 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:41:17 - log.py  - INFO - Not collect data
+2015-06-30 09:41:27 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:41:27 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:41:27 - log.py  - INFO - Not collect data
+2015-06-30 09:41:37 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:41:37 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:41:37 - log.py  - INFO - Not collect data
+2015-06-30 09:41:47 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:41:47 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:41:47 - log.py  - INFO - Not collect data
+2015-06-30 09:41:57 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:41:57 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:41:57 - log.py  - INFO - Not collect data
+2015-06-30 09:42:07 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:42:07 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:42:07 - log.py  - INFO - Not collect data
+2015-06-30 09:42:17 - log.py  - INFO - /data/monitor/client/plugins/mysql_alive.sh No execute permissions (limits 755)
+2015-06-30 09:42:17 - log.py  - INFO - /data/monitor/client/plugins/cc.py No execute permissions (limits 755)
+2015-06-30 09:42:17 - log.py  - INFO - Not collect data

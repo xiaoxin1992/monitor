@@ -7,7 +7,7 @@
 
 . /etc/rc.d/init.d/functions
 
-server_root=/data/monitor/client/
+server_root=/data/monitor/client
 monitor_client=${server_root}/bin/monitor_client
 pid=$server_root/pid
 
@@ -84,7 +84,7 @@ case $1 in
 	checkconf)
 		check
 		if [ $? -eq 0 ];then
-			echo -e '\033[1;32;40m'"Configuration  Success!""\033[0m"
+			echo -e '\033[32;40m'"Configuration  Success!""\033[0m"
 		fi 
 		;;
 	*)

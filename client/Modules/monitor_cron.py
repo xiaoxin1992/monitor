@@ -55,13 +55,13 @@ def update_data():
         if k not in srcipt_ok:
             continue
         command_line = cmd_exec(os.path.join(plugin_directory,v))
-        data_list.append({'id':info['id'],'host_info':info['information'],'script_name':"%s" % k,'data':"%s" % command_line[0],'code':"%s" % command_line[1]})
-    write_data(cron_data,json.dumps(data_list,ensure_ascii=False),write_type='w')
-    write_data(cron_status,'0',write_type='w')
+        data_list.append({'type':'plugin','id':info['id'],'host_info':info['information'],'script_name':"%s" % k,'data':"%s" % command_line[0],'code':"%s" % command_line[1]})
+    if data_list.__len__(): 
+        write_data(cron_data,json.dumps(data_list,ensure_ascii=False),write_type='w')
+        write_data(cron_status,'0',write_type='w')
 
 def check_data():
     while True:
-       
         try:
             update_data()
             send_data()

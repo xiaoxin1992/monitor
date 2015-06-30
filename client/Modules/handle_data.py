@@ -11,7 +11,7 @@ def send_data():
     cron_data = main_path +"/tmp/monitor_info.dat"
     
     with open(cron_data) as f:
-        data =f.read()
+        data = f.read()
     with open(cron_status,'r') as s_f:
         status = s_f.read()
     if len(status) == 0:
@@ -22,8 +22,10 @@ def send_data():
         except Exception,e:
             log.log(e)
         sys.exit(1)
-    if int(status.strip()) is not 0 or not data:
-        sys.exit(0)
+    if int(status.strip()) is not 0 or not data.__len__():
+        log.log('Not collect data')
+        return 0
+   
     if client.send_data(data) is 0:
         try:
             f = open(cron_data,'w')
